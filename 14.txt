@@ -1,0 +1,13 @@
+/home/fanboy/personnages
+├── comics
+│   └── femmes
+│       ├── cape
+│       │   ├── batgirl
+│       │   └── wonderwoman
+│       └── sans cape
+│           ├── electra
+│           └── superwoman
+└── mascottes
+    └── mixdarbat
+
+9 directories, 1 file

@@ -1,0 +1,250 @@
+cron -e
+crontab -e
+man ls
+ls -l /tmp
+ls -l /tmp >/dev/null
+ls -l /tmp l>/dev/null
+ls -l /tmp 1>/dev/null
+ls -l /do_not_exist 1>/dev/null 2>&1
+ls -l /tmp /do_not_exist 1>/dev/null 2>&1
+ls -l /bin
+neofetch
+sudo apt intall neofetch
+sudo apt install neofetch
+neofetch
+#!/bin/bash
+# mon commentaire
+echo "HelloWOrld !"
+chmiod +x myscript.sh
+chmod +x myscript.sh
+ps aelf
+htop
+ping www.on-zen.me
+netstat -a
+grep "pattern" file.txt
+sed 'u/old_text/new_text/' file.txt
+ls
+ls
+ls
+ls
+mkdir devops
+ls
+mkdir personnages
+mkdir super heros
+mkdir mascottes
+mkdir beastie
+mkdir bibendum
+mkdir mario
+mkdir sonic
+ls
+ls
+mkdir femmes
+mkdir hommes
+mkdir cape
+mkdir sans\ cape/
+ls
+mkdir batgirl
+mkdir wonderwoman
+mkdir electra
+mkdir superwoman
+ls
+ls
+mkdir cape
+mkdir batman
+mkdir superman
+mkdir sans/ capels
+ls
+ls
+composer create-project symfony/skeleton tp
+composer require webapp
+ls
+symfony make:entity
+php bin/console doctrine:database:create
+php bin/console make:entity User
+php bin/console make:entity
+php bin/console make:migration
+php bin/console doctrine:migrations:migrate
+php bin/console doctrine:migrations:diff
+php bin/console d:m:m
+php bin/console make:migration
+php bin/console doctrine:migrations:migrate
+ls
+php bin/console make:crud 
+php bin/console make:entity
+php bin/console make:migration
+php bin/console doctrine:migrations:migrate
+php bin/console make:controller
+git init
+php bin/console make:entity
+php bin/console doctrine:migrations:diff
+php bin/console d:m:m
+php bin/console make:entity
+php bin/console make:migration
+php bin/console doctrine:migrations:migrate
+git branch
+php bin/console doctrine:migrations:diff
+php bin/console d:m:m
+git add .
+git commit -m "push toma"
+git push origin cahier-rm 
+git add .
+git commit -m "correctif"
+git push origin cahier-rm 
+git checkout dev
+git pull origin dev
+git checkout -b delete-user
+git add .
+git commit -m "push"
+git push origin delete-user 
+php bin/console doctrine:migrations:diff
+php bin/console d:m:m
+git add .
+git commit -m "fix delete user"
+git push origin delete-user 
+git checkout dev
+git pull origin dev
+git checkout -b rdv-masq
+git add .
+git commit -m "fix urgent"
+git push origin rdv-masq 
+git add .
+git commit -m "import contact + rdv masquage"
+git push origin rdv-masq 
+git add .
+git commit -m "test boost"
+git push origin rdv-masq 
+git add .
+git commit -m "test"
+git push origin rdv-masq 
+git add .
+git commit -m "petite modif"
+git push origin rdv-masq 
+git add .
+git commit -m "petite modif"
+git push origin rdv-masq 
+git add .
+git commit -m "good?"
+git push origin rdv-masq 
+git add 
+git add .
+git commit -m "test mail ok"
+git push origin rdv-masq 
+git add .
+git commit -m "fix multi"
+git push origin rdv-masq 
+git add .
+git commit -m "ca avance"
+git push origin rdv-masq 
+git add .
+git commit -m "encore"
+git add .
+git push origin rdv-masq 
+git add .
+git commit -m "ça deviens long"
+git push origin rdv-masq 
+php bin/console doctrine:migrations:diff
+php bin/console cache:clear
+php bin/console doctrine:migrations:diff
+php bin/console doctrine:cache:clear-metadata
+php bin/console doctrine:migrations:diff
+php bin/console doctrine:migrations:diff --em EM
+php bin/console doctrine:migrations:diff
+php bin/console doctrine:migrations:migrate
+php bin/console doctrine:cache:clear-metadata
+php bin/console doctrine:cache:clear-query
+php bin/console doctrine:cache:clear-result
+php bin/console cache:clear
+php bin/console doctrine:migrations:diff
+php bin/console doctrine:migrations:migrate
+php bin/console doctrine:migrations:diff
+php bin/console make:migration
+php bin/console doctrine:migrations:diff
+php bin/console doctrine:schema:validate
+git add .
+git vommit -m "test"
+git commit -m "y"
+git push origin rdv-masq 
+symfony server:start
+#!/bin/bash
+echo "Quel est ton nom ?"
+read nom
+echo "Bienvenue $nom !"
+for i in {1..10}; do    echo $i; done
+echo "Quel est ton âge ?"
+read age
+if [ $age -ge 18 ]; then     echo "Vous êtes majeur."; else     echo "Vous êtes mineur."; fi
+echo "Quel est ton âge ?"
+read age
+if [ $age -ge 18 ]; then     echo "Vous êtes majeur."; else     echo "Vous êtes mineur."; fi
+echo "Entrez le nom du fichier à vérifier :"
+read fichier
+if [ -e "$fichier" ]; then     echo "Le fichier existe."; else     echo "Le fichier n'existe pas."; fi
+ls
+if [ -e "$fichier" ]; then     echo "Le fichier existe."; else     echo "Le fichier n'existe pas."; fi
+ls
+echo "Entrez le nom du fichier à vérifier :"
+read fichier
+if [ -e "$fichier" ]; then     echo "Le fichier existe."; else     echo "Le fichier n'existe pas."; fi
+echo "Entrez le premier nombre :"
+read num1
+echo "Entrez le second nombre :"
+read num2
+somme() {     echo $(($1 + $2)); }
+resultat=$(somme $num1 $num2)
+echo "La somme est : $resultat"
+ls
+if [ $# -eq 2 ]; then     echo "Le produit de $1 et $2 est $(($1 * $2))"; else     echo "Veuillez fournir deux nombres."; fi
+ls
+if [ $# -eq 2 ]; then     echo "Le produit de $1 et $2 est $(($1 * $2))"; else     echo "Veuillez fournir deux nombres."; fi
+22
+if [ $# -eq 2 ]; then  echo "Le produit de $1 et $2 est $(($1 * $2))"; else echo "Veuillez fournir des nombres."; fi
+echo "Entre le premier nombre"
+echo "Entre le premier nombre:"
+echo "Entre le premier nombre:";
+ls
+echo "Entrez le premier nombre:"
+read num1
+echo "Entrez le deuxième nombre:"
+read num2
+echo "Le produit de $num1 et $num2 est $(($num1 * $num2))"
+git add .
+git commit -m "test"
+git push origin homepage 
+git checkout dev
+git pull origin dev
+git checkout homepage 
+git branch
+git add .
+git commit -m "homepage + fix"
+git push origin homepage 
+git checkout dev
+git pull origin dev
+git branch
+git branch -d homepage 
+git add .
+git commit -m "fix thomas"
+git push origin feature-mass 
+git add .
+git commit -m "mini fix"
+git push origin feature-mass 
+composer require vich/uploader-bundle
+git add 
+git add .
+git commit -m "push online"
+git push origin feature-mass 
+git add .
+git commit -m "fix"
+git push origin feature-mass 
+symfony server:start
+git add .
+git commit -m "fix"
+git push origin homepage 
+symfony server:start
+git add .
+git commit -m "fix bug flo"
+git push origin feature-mass 
+git checkout dev
+git checkout -b fix-flo
+git add .
+git commit -m "fix"
+git push origin fix-flo 
